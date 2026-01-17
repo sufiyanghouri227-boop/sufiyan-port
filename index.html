@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sufiyan | Professional Web Developer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="nav">
+  <div class="container">
+    <h1 class="logo">portfolio</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#clients">Clients</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <h2>Hi, I'm <span>Sufiyan</span></h2>
+      <h3>Frontend Web Developer</h3>
+      <p>I build modern, responsive & high-quality websites for businesses.</p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+    <div class="hero-img">
+      <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg">
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container center">
+    <h2>About Me</h2>
+    <p>
+      I'm a professional frontend developer with experience in creating
+      clean UI, responsive layouts and user-focused designs using
+      HTML, CSS and modern web standards.
+    </p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section gray" id="skills">
+  <div class="container">
+    <h2 class="center">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">HTML5</div>
+      <div class="skill">CSS3</div>
+      <div class="skill">Responsive Design</div>
+      <div class="skill">Bootstrap</div>
+      <div class="skill">UI / UX</div>
+      <div class="skill">Website Optimization</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+  <div class="container">
+    <h2 class="center">Projects</h2>
+    <div class="project-grid">
+      <div class="project">
+        <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg">
+        <h3>Portfolio Website</h3>
+      </div>
+      <div class="project">
+        <img src="https://images.pexels.com/photos/392018/pexels-photo-392018.jpeg">
+        <h3>Business Website</h3>
+      </div>
+      <div class="project">
+        <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg">
+        <h3>Landing Page</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTS -->
+<section class="section gray" id="clients">
+  <div class="container">
+    <h2 class="center">Client Testimonials</h2>
+    <div class="client-grid">
+      <div class="client">
+        <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg">
+        <p>“Excellent design & communication.”</p>
+        <h4>Ali Khan</h4>
+      </div>
+      <
+      <section class="client-section">
+        <h2 class="section-title">Client Information</h2>
+      
+        <div class="client-info-grid">
+      
+          <div class="client-info-box">
+            <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg" alt="Client">
+            <h3>Ali Khan</h3>
+            <p class="role">Business Owner</p>
+            <p class="review">
+              “Very professional developer. Website design clean aur fast hai.”
+            </p>
+          </div>
+      
+          <div class="client-info-box">
+            <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg" alt="Client">
+            <h3>Ahmed Raza</h3>
+            <p class="role">Startup Founder</p>
+            <p class="review">
+              “Excellent communication and modern design. Highly recommended.”
+            </p>
+          </div>
+      
+          <div class="client-info-box">
+            <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg" alt="Client">
+            <h3>Usman Malik</h3>
+            <p class="role">Marketing Manager</p>
+            <p class="review">
+              “Responsive website with premium look. Great experience!”
+            </p>
+          </div>
+      
+        </div>
+      </section>
+      
+      <section class="clients dark">
+        <h2 class="section-title">Happy Clients</h2>
+      
+        <div class="slider">
+          <div class="slides">
+      
+            <div class="client-card" onclick="openModal('Ali Khan','Business Owner','Excellent work, modern design and fast delivery.','https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg')">
+              <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg">
+              <h3>Ali Khan</h3>
+              <p class="role">Business Owner</p>
+              <div class="stars">★★★★★</div>
+            </div>
+      
+            <div class="client-card" onclick="openModal('Ahmed Raza','Startup Founder','Very professional and responsive website.','https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg')">
+              <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg">
+              <h3>Ahmed Raza</h3>
+              <p class="role">Startup Founder</p>
+              <div class="stars">★★★★★</div>
+            </div>
+      
+            <div class="client-card" onclick="openModal('Usman Malik','Marketing Manager','Premium look with perfect UI/UX.','https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg')">
+              <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg">
+              <h3>Usman Malik</h3>
+              <p class="role">Marketing Manager</p>
+              <div class="stars">★★★★☆</div>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+      
+      <!-- MODAL -->
+      <div id="clientModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal()">×</span>
+          <img id="modalImg">
+          <h3 id="modalName"></h3>
+          <p id="modalRole"></p>
+          <p id="modalText"></p>
+        </div>
+      </div>
+<!-- SIMPLE INFO BOX BELOW HAPPY CLIENTS -->
+<section class="contact-section" id="contact">
+    <div class="container">
+      <h2 class="section-title center">Contact Me</h2>
+  
+      <div class="contact-card">
+        <form>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+  
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container footer-grid">
+  
+      <!-- ABOUT -->
+      <div class="footer-about">
+        <h3>Sufiyan</h3>
+        <p>Professional Web Developer creating modern and responsive websites for clients worldwide.</p>
+      </div>
+  
+      <!-- QUICK LINKS -->
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#clients">Clients</a>
+        <a href="#contact">Contact</a>
+      </div>
+  
+      <!-- CONTACT -->
+      <div class="footer-contact">
+        <h3>Contact Info</h3>
+        <p>Email: example@gmail.com</p>
+        <p>Phone: +92 300 1234567</p>
+        <p>Location: Pakistan</p>
+        <div class="social-icons">
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/facebook-new.png"/></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/twitter.png"/></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/linkedin.png"/></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/instagram-new.png"/></a>
+        </div>
+      </div>
+  
+    </div>
+  
+    <!-- BOTTOM TEXT -->
+    <div class="footer-bottom">
+          
